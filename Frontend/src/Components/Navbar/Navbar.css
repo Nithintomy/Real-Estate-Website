@@ -1,0 +1,83 @@
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  color: white;
+  position: fixed;
+  top: 28px;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  margin-left: 0; 
+}
+/* .Navbar::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 465px; 
+  width: 510px;
+  height: 400px;
+  flex-shrink: 0;
+  border-radius: 51px;
+  opacity: 0.6;
+  background: #C471ED;
+  filter: blur(200px);
+  z-index: -1; 
+} */
+
+.nav-logo {
+  margin-left: 100px;
+}
+.nav-logo img {
+  max-height: 30px;
+}
+
+.nav-links a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #2e2e2e;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.nav-links a::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0;
+  background-color: #2e2e2e;
+  position: absolute;
+  bottom: 0; 
+  margin-left: 15px;
+  margin-top: 18px;
+}
+
+.nav-links a:hover::after,
+.nav-links a.active::after {
+  width: 100%;
+}
+.nav-buttons {
+  margin-right: 125px; 
+}
+
+.nav-buttons button:first-child {
+  width: 100px;
+  height: 48px;
+  margin-right: 31px;
+  border-radius: 4px;
+  border: 1px solid #2E2E2E;
+}
+
+.nav-buttons button:last-child {
+  width: 142px;
+  height: 48px;
+  border-radius: 4px;
+  border: 1px solid #2E2E2E;
+ 
+}

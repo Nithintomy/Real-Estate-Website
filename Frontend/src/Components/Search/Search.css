@@ -1,0 +1,61 @@
+/* Search.css */
+
+
+.search-container {
+    display: flex;
+    align-items: flex-start; 
+    justify-content: center; 
+    background-color: #2E2E2E;
+    padding: 20px;
+  }
+
+  .search-image img{
+    width: 484px;
+    height: 356px;
+    flex-shrink: 0;
+   
+  }
+  
+
+ 
+.search-text {
+    color: #FFF;
+    font-family: "Nunito", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+   
+    text-align: left; 
+  }
+  
+
+  .search-description {
+    color: #FFF;
+    font-family: "Nunito", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 598px;
+    text-align: left; 
+  }
+  
+ 
+  .register-btn {
+    width: 202px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: linear-gradient(90deg, #12C2E9 -15.84%, #C471ED 53.22%, #F64F59 122.28%);
+    color: #FFF;
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 20px; 
+    margin-bottom: 40px;
+     border: none;
+  }

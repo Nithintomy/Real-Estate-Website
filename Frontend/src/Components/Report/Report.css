@@ -1,0 +1,36 @@
+/* Report.css */
+
+.report-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 10vh; 
+}
+  
+
+  .right-content1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+  }
+
+  
+  .report-image {
+    width: 324.66px;
+    height: 330px;
+    position: absolute;
+    margin-right:120px ;
+    margin-bottom: 115px;
+  }
+  
+  .getStartButton {
+    width: 202px;
+    height: 48px;
+    margin-left: 20px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 2px solid transparent;
+    border-image: linear-gradient(90deg, rgba(18, 194, 233, 1), rgba(196, 113, 237, 1)) 1;
+  }
+  

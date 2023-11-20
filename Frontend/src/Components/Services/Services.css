@@ -1,0 +1,118 @@
+/* Services.css */
+.services-container{
+    margin-top: 100px;
+}
+.main-text {
+    color: #2E2E2E;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+  }
+  
+  .content-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px; 
+  }
+  
+  .background-image {
+    width: 599.2px;
+    height: 535.91px;
+    position: absolute;
+    margin-top: 60px;
+   
+
+  }
+ 
+  .create-profile-image {
+    width: 365.31px;
+    height: 370.54px;
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 40px;
+
+  }
+  
+  .right-content {
+    margin-left: 100px;
+    margin-right: 120px;
+   
+  }
+  
+  .section-title {
+    color: #2E2E2E;
+    margin-top: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  
+  .section-description {
+    color: #2E2E2E;
+    margin-top: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 590px;
+  }
+  
+  .feature-list li {
+    color: #2E2E2E;
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+  }
+  
+  .getStartButton {
+    width: 202px;
+    height: 48px;
+    margin-left: 20px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 2px solid transparent; 
+    border-image: linear-gradient(90deg, rgba(18, 194, 233, 1), rgba(196, 113, 237, 1)) 1;
+  }
+  
+
+@media screen and (max-width: 768px) {
+    .content-container {
+      flex-direction: column;
+      align-items: center;
+      margin-left: 0;
+    }
+  
+    .right-content {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  
+    .background-image,
+    .create-profile-image {
+      width: 100%;
+      height: auto;
+      position: static;
+      margin: 20px 0;
+    }
+  
+    .section-title,
+    .section-description,
+    .feature-list li {
+      text-align: center;
+      width: 100%;
+    }
+  
+    .getStartButton {
+      margin-left: 0;
+    }
+  }
