@@ -31,6 +31,7 @@
   .create-profile-image {
     width: 365.31px;
     height: 370.54px;
+    position: relative;
     margin-left: 80px;
     margin-top: 40px;
 
@@ -38,7 +39,7 @@
   
   .right-content {
     margin-left: 100px;
-    margin-right: 120px; 
+    margin-right: 120px; /* Add 120px right margin */
    
   }
   
@@ -67,7 +68,7 @@
   .feature-list li {
     color: #2E2E2E;
     font-family: 'Nunito', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 40px;
@@ -85,3 +86,15 @@
   }
   
   
+  @media (max-width: 768px) {
+    .content-container {
+        flex-direction: column; /* Stack content vertically on smaller screens */
+        align-items: center; /* Center content vertically */
+    }
+
+    .create-profile-image,
+    .background-image,
+    .right-content {
+        margin: 0; /* Remove margins on smaller screens */
+    }
+}
