@@ -47,17 +47,6 @@
   position: relative;
 }
 
-.nav-links a::after {
-  content: "";
-  display: block;
-  height: 2px;
-  width: 0;
-  background-color: #2e2e2e;
-  position: absolute;
-  bottom: 0; 
-  margin-left: 15px;
-  margin-top: 18px;
-}
 
 .nav-links a:hover::after,
 .nav-links a.active::after {
@@ -65,6 +54,8 @@
 }
 .nav-buttons {
   margin-right: 125px; 
+  
+  
 }
 
 .nav-buttons button:first-child {
@@ -73,6 +64,7 @@
   margin-right: 31px;
   border-radius: 4px;
   border: 1px solid #2E2E2E;
+  cursor: pointer;
 }
 
 .nav-buttons button:last-child {
@@ -80,5 +72,29 @@
   height: 48px;
   border-radius: 4px;
   border: 1px solid #2E2E2E;
+  cursor: pointer;
  
+}
+
+@media screen and (max-width: 768px) {
+  .Navbar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: column; 
+    align-items: stretch;
+    margin-top: 10px; 
+  }
+
+  .nav-links a {
+    margin: 10px 0; 
+  }
+
+  .nav-buttons {
+    margin-top: 10px; 
+    margin-right: 20px; 
+  }
 }

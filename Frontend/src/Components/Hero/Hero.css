@@ -166,7 +166,6 @@
     }
   }
   
-  /* Responsive styles for screens up to 768px */
   @media screen and (max-width: 768px) {
     .hero {
       flex-direction: column;
@@ -218,8 +217,10 @@
     }
   
     .additional-content p {
-      font-size: 18px;
+      font-size: 6px; 
       margin-top: 20px;
+      white-space: normal;
+      word-wrap: break-word;
+      max-width: 100%;
     }
   }
-  

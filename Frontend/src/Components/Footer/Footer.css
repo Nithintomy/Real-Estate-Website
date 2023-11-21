@@ -92,3 +92,30 @@
   .copyright p{
     margin: 20px;
   }
+
+  @media only screen and (max-width: 600px) {
+    .footer-main {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .logo {
+        width: 80px;
+        height: 20px;
+    }
+
+    .home,
+    .margin-right-div {
+        margin-left: 10px;
+    }
+    .copyright {
+      align-items: center; 
+      margin-right: 0; 
+      text-align: center; 
+    }
+  
+    .copyright img {
+      margin-top: 0; 
+      margin-bottom: 10px; 
+    }
+}

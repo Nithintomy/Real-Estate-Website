@@ -115,12 +115,40 @@
     align-items: center;
   }
 
-  @media (max-width: 768px) {
+  @media screen and (max-width: 768px) {
+    .explore-container {
+      flex-direction: column;
+      align-items: stretch;
+      padding: 20px;
+    }
+  
     .right {
-        flex-direction: column;
+      width: 100%; 
     }
-
+  
     .info-item {
-        width: 100%;
+      margin-bottom: 20px; 
     }
-}
+  
+
+    .right svg {
+      width: 50px;
+      height: 50px;
+    }
+  
+  
+    .info-item .overlay-svg svg {
+      width: 20px;
+      height: 30px;
+    }
+    .benefits {
+      width: 100%; /* Full width on smaller screens */
+      height: auto; /* Adjust height based on content */
+      padding: 10px; /* Adjust padding for better spacing */
+    }
+  
+    .benefits p {
+      font-size: 10px; /* Adjust font size for better readability */
+      margin: 10px; /* Adjust margin for better spacing */
+    }
+  }
