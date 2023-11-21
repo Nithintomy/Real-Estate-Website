@@ -36,12 +36,18 @@
   .right {
     display: flex;
     flex-wrap: wrap;
+    position: relative;
   }
-  
+  .overlay-svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
   .right .info-item {
     display: flex;
     align-items: center;
     justify-content: center;
+    
   }
   .right .text-container {
     color: #FFF;
@@ -77,6 +83,16 @@
     box-sizing: content-box; 
     
 }
+.info-item .overlay-svg svg {
+    width: 40px;
+    height: 40px;
+    fill: #FFF;
+    stroke-width: 0.8px;
+    stroke: #4A4A4A;
+    padding: 12px;
+    box-sizing: content-box;
+   
+}
 
 
   
@@ -99,3 +115,13 @@
     display: flex;
     align-items: center;
   }
+
+  @media (max-width: 768px) {
+    .right {
+        flex-direction: column;
+    }
+
+    .info-item {
+        width: 100%;
+    }
+}

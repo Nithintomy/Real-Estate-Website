@@ -11,11 +11,11 @@ function Navbar() {
           </div>
     
           <div className='nav-links'>
-      <Link to='/' className='nav-link' activeClassName='active'>HOME</Link>
-      <Link to='/profile' className='nav-link' activeClassName='active'>PROFILE</Link>
-      <Link to='/reports' className='nav-link' activeClassName='active'>REPORTS</Link>
-      <Link to='/insight' className='nav-link' activeClassName='active'>INSIGHT</Link>
-    </div>
+            <Link to='/'>HOME</Link>
+            <Link to='/profile'>PROFILE</Link>
+            <Link to='/reports'>REPORTS</Link>
+            <Link to='/insight'>INSIGHT</Link>
+          </div>
     
           <div className='nav-buttons'>
             <button>LOGIN</button>
